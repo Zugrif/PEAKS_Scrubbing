@@ -8,4 +8,4 @@ JSCheck is a testing tool for JavaScript. It was inspired by QuickCheck, a
 testing tool for Haskell developed by Koen Claessen and John Hughes of
 Chalmers University of Technology.
 
-JSCheck is a specification-driven testing tool. From a desc
+JSCheck is a specification-driven testing tool. From a descri
