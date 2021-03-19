@@ -12,4 +12,4 @@ JSCheck is a specification-driven testing tool. From a description of the
 properties of a system, function, or object, it will generate random test
 cases attempting to prove those properties, and then report its findings.
 That can be especially effective in managing the evolution of a program
-because it can show the confor
+because it can show the conformanc
