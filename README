@@ -14,4 +14,4 @@ cases attempting to prove those properties, and then report its findings.
 That can be especially effective in managing the evolution of a program
 because it can show the conformance of new code to old code. It also provides
 an interesting level of self-documentation, because the executable
-specifications it relies on can provide a good view of the 
+specifications it relies on can provide a good view of the worki
