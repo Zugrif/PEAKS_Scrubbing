@@ -1,2 +1,3 @@
 
 // jscheck.js
+// Douglas Crockford
