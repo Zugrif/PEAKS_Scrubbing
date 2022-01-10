@@ -8,3 +8,5 @@
 // http://www.jscheck.org/
 
 /*jslint for, node */
+
+/*property
