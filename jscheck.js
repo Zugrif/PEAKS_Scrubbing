@@ -4,3 +4,5 @@
 // 2021-05-17
 
 // Public Domain
+
+// http://www.jscheck.org/
