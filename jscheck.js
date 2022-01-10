@@ -6,3 +6,5 @@
 // Public Domain
 
 // http://www.jscheck.org/
+
+/*jslint for, node */
