@@ -10,3 +10,4 @@
 /*jslint for, node */
 
 /*property
+    E, EPSILON, PI, any, args, array, boolean, cases, charCodeAt, character,
