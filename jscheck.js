@@ -15,3 +15,4 @@
     detail, fail, falsy, fill, findIndex, floor, forEach, freeze, fromCodePoint,
     integer, isArray, isSafeInteger, join, key, keys, length, literal, losses,
     lost, map, name, nr_trials, number, object, ok, pass, predicate, push,
+    random, reduce, replace, report, sequence, serial, signature, sort, split,
