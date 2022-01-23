@@ -11,3 +11,5 @@
 
 /*property
     E, EPSILON, PI, any, args, array, boolean, cases, charCodeAt, character,
+    check, claim, class, classification, classifier, codePointAt, concat,
+    detail, fail, falsy, fill, findIndex, floor, forEach, freeze, fromCodePoint,
