@@ -22,3 +22,6 @@
 import fulfill from "./fulfill.js";
 
 function resolve(value, ...rest) {
+
+// The 'resolve' function takes a value. If that value is a function, then it is
+// called to produce the return value. Otherwise, the value is the return value.
