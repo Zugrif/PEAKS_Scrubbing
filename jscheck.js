@@ -17,3 +17,8 @@
     lost, map, name, nr_trials, number, object, ok, pass, predicate, push,
     random, reduce, replace, report, sequence, serial, signature, sort, split,
     string, stringify, summary, time_limit, total, type, verdict, wun_of
+*/
+
+import fulfill from "./fulfill.js";
+
+function resolve(value, ...rest) {
