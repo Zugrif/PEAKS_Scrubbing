@@ -29,3 +29,4 @@ function resolve(value, ...rest) {
     return (
         typeof value === "function"
         ? value(...rest)
+        : value
