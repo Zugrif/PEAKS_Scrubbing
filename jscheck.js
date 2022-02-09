@@ -34,3 +34,6 @@ function resolve(value, ...rest) {
 }
 
 function literal(value) {
+    return function () {
+        return value;
+    };
