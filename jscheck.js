@@ -32,3 +32,5 @@ function resolve(value, ...rest) {
         : value
     );
 }
+
+function literal(value) {
