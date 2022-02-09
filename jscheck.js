@@ -31,3 +31,4 @@ function resolve(value, ...rest) {
         ? value(...rest)
         : value
     );
+}
