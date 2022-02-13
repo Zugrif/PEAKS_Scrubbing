@@ -37,3 +37,4 @@ function literal(value) {
     return function () {
         return value;
     };
+}
