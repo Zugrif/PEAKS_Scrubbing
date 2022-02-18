@@ -38,3 +38,5 @@ function literal(value) {
         return value;
     };
 }
+
+function boolean(bias = 0.5) {
