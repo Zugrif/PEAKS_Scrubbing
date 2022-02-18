@@ -40,3 +40,7 @@ function literal(value) {
 }
 
 function boolean(bias = 0.5) {
+
+// A signature can contain a boolean specification. An optional bias
+// parameter can be provided. If the bias is 0.25, then approximately a
+// quarter of the booleans produced will be true.
