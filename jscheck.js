@@ -47,3 +47,5 @@ function boolean(bias = 0.5) {
 
     bias = resolve(bias);
     return function () {
+        return Math.random() < bias;
+    };
