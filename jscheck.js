@@ -49,3 +49,4 @@ function boolean(bias = 0.5) {
     return function () {
         return Math.random() < bias;
     };
+}
