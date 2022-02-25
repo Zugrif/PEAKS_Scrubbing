@@ -50,3 +50,11 @@ function boolean(bias = 0.5) {
         return Math.random() < bias;
     };
 }
+
+function number(from = 1, to = 0) {
+    from = Number(resolve(from));
+    to = Number(resolve(to));
+    if (from > to) {
+        [from, to] = [to, from];
+    }
+    const difference = to - from;
