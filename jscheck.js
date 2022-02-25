@@ -58,3 +58,5 @@ function number(from = 1, to = 0) {
         [from, to] = [to, from];
     }
     const difference = to - from;
+    return function () {
+        return Math.random() * difference + from;
