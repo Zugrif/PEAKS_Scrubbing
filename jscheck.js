@@ -62,3 +62,5 @@ function number(from = 1, to = 0) {
         return Math.random() * difference + from;
     };
 }
+
+function wun_of(array, weights) {
