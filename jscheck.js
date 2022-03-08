@@ -64,3 +64,7 @@ function number(from = 1, to = 0) {
 }
 
 function wun_of(array, weights) {
+
+// The 'wun_of' specifier has two signatures.
+
+//.  wun_of(array)
