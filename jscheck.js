@@ -68,3 +68,5 @@ function wun_of(array, weights) {
 // The 'wun_of' specifier has two signatures.
 
 //.  wun_of(array)
+//.      Wun element is taken from the array and resolved.
+//.      The elements are selected randomly with equal probabilities.
