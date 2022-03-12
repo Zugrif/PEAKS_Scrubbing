@@ -70,3 +70,5 @@ function wun_of(array, weights) {
 //.  wun_of(array)
 //.      Wun element is taken from the array and resolved.
 //.      The elements are selected randomly with equal probabilities.
+
+//. wun_of(array, weights)
