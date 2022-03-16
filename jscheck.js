@@ -74,3 +74,7 @@ function wun_of(array, weights) {
 //. wun_of(array, weights)
 //.      The two arguments are both arrays with equal lengths.
 //.      The larger a weight, the more likely an element will be selected.
+
+    if (
+        !Array.isArray(array)
+        || array.length < 1
