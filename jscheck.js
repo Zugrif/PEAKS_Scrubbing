@@ -78,3 +78,6 @@ function wun_of(array, weights) {
     if (
         !Array.isArray(array)
         || array.length < 1
+        || (
+            weights !== undefined
+            && (!Array.isArray(weights) || array.length !== weights.length)
