@@ -84,3 +84,5 @@ function wun_of(array, weights) {
         )
     ) {
         throw new Error("JSCheck wun_of");
+    }
+    if (weights === undefined) {
