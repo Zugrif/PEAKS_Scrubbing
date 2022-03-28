@@ -86,3 +86,8 @@ function wun_of(array, weights) {
         throw new Error("JSCheck wun_of");
     }
     if (weights === undefined) {
+        return function () {
+            return resolve(array[Math.floor(Math.random() * array.length)]);
+        };
+    }
+    const total = weights.reduce(function (a, b) {
