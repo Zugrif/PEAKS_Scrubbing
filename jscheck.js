@@ -92,3 +92,5 @@ function wun_of(array, weights) {
     }
     const total = weights.reduce(function (a, b) {
         return a + b;
+    });
+    let base = 0;
