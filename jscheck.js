@@ -96,3 +96,6 @@ function wun_of(array, weights) {
     let base = 0;
     const list = weights.map(function (value) {
         base += value;
+        return base / total;
+    });
+    return function () {
