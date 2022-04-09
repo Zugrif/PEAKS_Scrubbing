@@ -105,3 +105,5 @@ function wun_of(array, weights) {
         })]);
     };
 }
+
+function sequence(seq) {
