@@ -100,3 +100,5 @@ function wun_of(array, weights) {
     });
     return function () {
         let x = Math.random();
+        return resolve(array[list.findIndex(function (element) {
+            return element >= x;
