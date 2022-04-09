@@ -99,3 +99,4 @@ function wun_of(array, weights) {
         return base / total;
     });
     return function () {
+        let x = Math.random();
