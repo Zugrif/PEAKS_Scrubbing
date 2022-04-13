@@ -108,3 +108,5 @@ function wun_of(array, weights) {
 
 function sequence(seq) {
     seq = resolve(seq);
+    if (!Array.isArray(seq)) {
+        throw "JSCheck sequence";
