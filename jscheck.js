@@ -110,3 +110,5 @@ function sequence(seq) {
     seq = resolve(seq);
     if (!Array.isArray(seq)) {
         throw "JSCheck sequence";
+    }
+    let element_nr = -1;
