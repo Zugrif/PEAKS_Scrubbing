@@ -112,3 +112,8 @@ function sequence(seq) {
         throw "JSCheck sequence";
     }
     let element_nr = -1;
+    return function () {
+        element_nr += 1;
+        if (element_nr >= seq.length) {
+            element_nr = 0;
+        }
