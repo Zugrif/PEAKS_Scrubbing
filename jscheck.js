@@ -117,3 +117,5 @@ function sequence(seq) {
         if (element_nr >= seq.length) {
             element_nr = 0;
         }
+        return resolve(seq[element_nr]);
+    };
