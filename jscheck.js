@@ -119,3 +119,4 @@ function sequence(seq) {
         }
         return resolve(seq[element_nr]);
     };
+}
