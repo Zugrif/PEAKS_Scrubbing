@@ -120,3 +120,5 @@ function sequence(seq) {
         return resolve(seq[element_nr]);
     };
 }
+
+const bottom = [false, null, undefined, "", 0, NaN];
