@@ -122,3 +122,6 @@ function sequence(seq) {
 }
 
 const bottom = [false, null, undefined, "", 0, NaN];
+
+function falsy() {
+    return wun_of(bottom);
