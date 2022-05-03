@@ -146,3 +146,7 @@ const primes = [
     877, 881, 883, 887, 907, 911, 919, 929, 937, 941,
     947, 953, 967, 971, 977, 983, 991, 997
 ];
+
+function integer_value(value, default_value) {
+    value = resolve(value);
+    return (
