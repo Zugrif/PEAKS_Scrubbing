@@ -150,3 +150,5 @@ const primes = [
 function integer_value(value, default_value) {
     value = resolve(value);
     return (
+        typeof value === "number"
+        ? Math.floor(value)
