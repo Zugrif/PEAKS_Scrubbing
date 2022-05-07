@@ -155,3 +155,5 @@ function integer_value(value, default_value) {
         : (
             typeof value === "string"
             ? value.charCodeAt(0)
+            : default_value
+        )
