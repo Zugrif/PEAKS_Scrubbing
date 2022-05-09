@@ -159,3 +159,7 @@ function integer_value(value, default_value) {
         )
     );
 }
+
+function integer(i, j) {
+    if (i === undefined) {
+        return wun_of(primes);
