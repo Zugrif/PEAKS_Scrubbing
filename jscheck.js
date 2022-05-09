@@ -157,3 +157,5 @@ function integer_value(value, default_value) {
             ? value.charCodeAt(0)
             : default_value
         )
+    );
+}
