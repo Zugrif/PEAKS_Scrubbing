@@ -165,3 +165,4 @@ function integer(i, j) {
         return wun_of(primes);
     }
     i = integer_value(i, 1);
+    if (j === undefined) {
