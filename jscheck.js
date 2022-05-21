@@ -171,3 +171,4 @@ function integer(i, j) {
     } else {
         j = integer_value(j, 1);
     }
+    if (i > j) {
