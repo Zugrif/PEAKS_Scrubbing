@@ -166,3 +166,6 @@ function integer(i, j) {
     }
     i = integer_value(i, 1);
     if (j === undefined) {
+        j = i;
+        i = 1;
+    } else {
