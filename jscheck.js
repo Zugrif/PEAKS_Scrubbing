@@ -172,3 +172,5 @@ function integer(i, j) {
         j = integer_value(j, 1);
     }
     if (i > j) {
+        [i, j] = [j, i];
+    }
