@@ -169,3 +169,5 @@ function integer(i, j) {
         j = i;
         i = 1;
     } else {
+        j = integer_value(j, 1);
+    }
