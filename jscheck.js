@@ -177,3 +177,4 @@ function integer(i, j) {
     return function () {
         return Math.floor(Math.random() * (j + 1 - i) + i);
     };
+}
