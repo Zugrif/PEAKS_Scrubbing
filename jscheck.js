@@ -174,3 +174,6 @@ function integer(i, j) {
     if (i > j) {
         [i, j] = [j, i];
     }
+    return function () {
+        return Math.floor(Math.random() * (j + 1 - i) + i);
+    };
