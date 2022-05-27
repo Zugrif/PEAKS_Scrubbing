@@ -178,3 +178,5 @@ function integer(i, j) {
         return Math.floor(Math.random() * (j + 1 - i) + i);
     };
 }
+
+function character(i, j) {
