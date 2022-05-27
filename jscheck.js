@@ -180,3 +180,4 @@ function integer(i, j) {
 }
 
 function character(i, j) {
+    if (i === undefined) {
