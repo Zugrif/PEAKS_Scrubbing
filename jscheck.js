@@ -185,3 +185,6 @@ function character(i, j) {
     }
     if (typeof i === "string") {
         return (
+            j === undefined
+            ? wun_of(i.split(""))
+            : character(i.codePointAt(0), j.codePointAt(0))
