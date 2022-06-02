@@ -181,3 +181,7 @@ function integer(i, j) {
 
 function character(i, j) {
     if (i === undefined) {
+        return character(32, 126);
+    }
+    if (typeof i === "string") {
+        return (
