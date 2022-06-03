@@ -188,3 +188,4 @@ function character(i, j) {
             j === undefined
             ? wun_of(i.split(""))
             : character(i.codePointAt(0), j.codePointAt(0))
+        );
