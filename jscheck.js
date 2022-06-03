@@ -189,3 +189,4 @@ function character(i, j) {
             ? wun_of(i.split(""))
             : character(i.codePointAt(0), j.codePointAt(0))
         );
+    }
