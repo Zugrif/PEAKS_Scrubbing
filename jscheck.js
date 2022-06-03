@@ -190,3 +190,4 @@ function character(i, j) {
             : character(i.codePointAt(0), j.codePointAt(0))
         );
     }
+    const ji = integer(i, j);
