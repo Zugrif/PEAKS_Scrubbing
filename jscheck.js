@@ -191,3 +191,4 @@ function character(i, j) {
         );
     }
     const ji = integer(i, j);
+    return function () {
