@@ -195,3 +195,5 @@ function character(i, j) {
         return String.fromCodePoint(ji());
     };
 }
+
+function array(first, value) {
