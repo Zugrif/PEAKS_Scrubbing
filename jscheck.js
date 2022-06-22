@@ -199,3 +199,6 @@ function character(i, j) {
 function array(first, value) {
     if (Array.isArray(first)) {
         return function () {
+            return first.map(resolve);
+        };
+    }
