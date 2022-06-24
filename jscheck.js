@@ -212,3 +212,6 @@ function array(first, value) {
         const dimension = resolve(first);
         const result = new Array(dimension).fill(value);
         return (
+            typeof value === "function"
+            ? result.map(resolve)
+            : result
