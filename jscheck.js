@@ -202,3 +202,7 @@ function array(first, value) {
             return first.map(resolve);
         };
     }
+    if (first === undefined) {
+        first = integer(4);
+    }
+    if (value === undefined) {
