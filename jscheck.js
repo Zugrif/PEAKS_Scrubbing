@@ -206,3 +206,5 @@ function array(first, value) {
         first = integer(4);
     }
     if (value === undefined) {
+        value = integer();
+    }
