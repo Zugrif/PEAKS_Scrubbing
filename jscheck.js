@@ -208,3 +208,7 @@ function array(first, value) {
     if (value === undefined) {
         value = integer();
     }
+    return function () {
+        const dimension = resolve(first);
+        const result = new Array(dimension).fill(value);
+        return (
