@@ -217,3 +217,4 @@ function array(first, value) {
             : result
         );
     };
+}
