@@ -218,3 +218,6 @@ function array(first, value) {
         );
     };
 }
+
+function string(...parameters) {
+    const length = parameters.length;
