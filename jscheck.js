@@ -215,3 +215,5 @@ function array(first, value) {
             typeof value === "function"
             ? result.map(resolve)
             : result
+        );
+    };
