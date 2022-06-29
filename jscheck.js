@@ -224,3 +224,6 @@ function string(...parameters) {
 
     if (length === 0) {
         return string(integer(10), character());
+    }
+    return function () {
+        let pieces = [];
