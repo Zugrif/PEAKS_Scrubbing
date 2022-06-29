@@ -227,3 +227,4 @@ function string(...parameters) {
     }
     return function () {
         let pieces = [];
+        let parameter_nr = 0;
