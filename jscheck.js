@@ -221,3 +221,6 @@ function array(first, value) {
 
 function string(...parameters) {
     const length = parameters.length;
+
+    if (length === 0) {
+        return string(integer(10), character());
