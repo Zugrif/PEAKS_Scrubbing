@@ -228,3 +228,6 @@ function string(...parameters) {
     return function () {
         let pieces = [];
         let parameter_nr = 0;
+        let value;
+        while (true) {
+            value = resolve(parameters[parameter_nr]);
