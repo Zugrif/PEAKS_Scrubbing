@@ -231,3 +231,4 @@ function string(...parameters) {
         let value;
         while (true) {
             value = resolve(parameters[parameter_nr]);
+            parameter_nr += 1;
