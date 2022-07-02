@@ -232,3 +232,5 @@ function string(...parameters) {
         while (true) {
             value = resolve(parameters[parameter_nr]);
             parameter_nr += 1;
+            if (value === undefined) {
+                break;
