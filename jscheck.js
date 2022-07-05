@@ -237,3 +237,5 @@ function string(...parameters) {
             }
             if (
                 Number.isSafeInteger(value)
+                && value >= 0
+                && parameters[parameter_nr] !== undefined
