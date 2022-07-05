@@ -234,3 +234,6 @@ function string(...parameters) {
             parameter_nr += 1;
             if (value === undefined) {
                 break;
+            }
+            if (
+                Number.isSafeInteger(value)
