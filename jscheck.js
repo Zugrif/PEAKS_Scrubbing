@@ -239,3 +239,6 @@ function string(...parameters) {
                 Number.isSafeInteger(value)
                 && value >= 0
                 && parameters[parameter_nr] !== undefined
+            ) {
+                pieces = pieces.concat(
+                    new Array(value).fill(parameters[parameter_nr]).map(resolve)
