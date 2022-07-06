@@ -244,3 +244,5 @@ function string(...parameters) {
                     new Array(value).fill(parameters[parameter_nr]).map(resolve)
                 );
                 parameter_nr += 1;
+            } else {
+                pieces.push(String(value));
