@@ -246,3 +246,4 @@ function string(...parameters) {
                 parameter_nr += 1;
             } else {
                 pieces.push(String(value));
+            }
