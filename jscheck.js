@@ -242,3 +242,5 @@ function string(...parameters) {
             ) {
                 pieces = pieces.concat(
                     new Array(value).fill(parameters[parameter_nr]).map(resolve)
+                );
+                parameter_nr += 1;
