@@ -249,3 +249,6 @@ function string(...parameters) {
             }
 
         }
+        return pieces.join("");
+    };
+}
