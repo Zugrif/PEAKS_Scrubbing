@@ -247,3 +247,5 @@ function string(...parameters) {
             } else {
                 pieces.push(String(value));
             }
+
+        }
