@@ -255,3 +255,4 @@ function string(...parameters) {
 
 const misc = [
     true, Infinity, -Infinity, falsy(), Math.PI, Math.E, Number.EPSILON
+];
