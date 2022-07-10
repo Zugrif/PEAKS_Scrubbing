@@ -256,3 +256,7 @@ function string(...parameters) {
 const misc = [
     true, Infinity, -Infinity, falsy(), Math.PI, Math.E, Number.EPSILON
 ];
+
+function any() {
+    return wun_of([integer(), number(), string(), wun_of(misc)]);
+}
