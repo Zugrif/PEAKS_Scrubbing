@@ -260,3 +260,5 @@ const misc = [
 function any() {
     return wun_of([integer(), number(), string(), wun_of(misc)]);
 }
+
+function object(subject, value) {
