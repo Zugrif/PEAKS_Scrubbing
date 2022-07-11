@@ -262,3 +262,6 @@ function any() {
 }
 
 function object(subject, value) {
+    if (subject === undefined) {
+        subject = integer(1, 4);
+    }
