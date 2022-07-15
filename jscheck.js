@@ -271,3 +271,5 @@ function object(subject, value) {
         if (typeof keys === "number") {
             const text = string();
             const gen = any();
+            let i = 0;
+            while (i < keys) {
