@@ -268,3 +268,6 @@ function object(subject, value) {
     return function () {
         let result = {};
         const keys = resolve(subject);
+        if (typeof keys === "number") {
+            const text = string();
+            const gen = any();
