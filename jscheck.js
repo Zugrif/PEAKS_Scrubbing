@@ -267,3 +267,4 @@ function object(subject, value) {
     }
     return function () {
         let result = {};
+        const keys = resolve(subject);
