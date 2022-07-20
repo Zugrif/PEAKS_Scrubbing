@@ -273,3 +273,6 @@ function object(subject, value) {
             const gen = any();
             let i = 0;
             while (i < keys) {
+                result[text()] = gen();
+                i += 1;
+            }
