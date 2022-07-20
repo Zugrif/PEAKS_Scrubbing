@@ -276,3 +276,6 @@ function object(subject, value) {
                 result[text()] = gen();
                 i += 1;
             }
+            return result;
+        }
+        if (value === undefined) {
