@@ -279,3 +279,5 @@ function object(subject, value) {
             return result;
         }
         if (value === undefined) {
+            if (keys && typeof keys === "object") {
+                Object.keys(subject).forEach(function (key) {
