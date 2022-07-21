@@ -283,3 +283,5 @@ function object(subject, value) {
                 Object.keys(subject).forEach(function (key) {
                     result[key] = resolve(keys[key]);
                 });
+                return result;
+            }
