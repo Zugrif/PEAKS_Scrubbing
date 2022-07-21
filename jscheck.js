@@ -281,3 +281,5 @@ function object(subject, value) {
         if (value === undefined) {
             if (keys && typeof keys === "object") {
                 Object.keys(subject).forEach(function (key) {
+                    result[key] = resolve(keys[key]);
+                });
