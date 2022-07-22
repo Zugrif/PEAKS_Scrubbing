@@ -285,3 +285,5 @@ function object(subject, value) {
                 });
                 return result;
             }
+        } else {
+            const values = resolve(value);
