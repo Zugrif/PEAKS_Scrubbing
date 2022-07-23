@@ -288,3 +288,6 @@ function object(subject, value) {
         } else {
             const values = resolve(value);
             if (Array.isArray(keys)) {
+                keys.forEach(function (key, key_nr) {
+                    result[key] = resolve((
+                        Array.isArray(values)
