@@ -287,3 +287,4 @@ function object(subject, value) {
             }
         } else {
             const values = resolve(value);
+            if (Array.isArray(keys)) {
