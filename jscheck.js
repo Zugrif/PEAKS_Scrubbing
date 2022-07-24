@@ -291,3 +291,5 @@ function object(subject, value) {
                 keys.forEach(function (key, key_nr) {
                     result[key] = resolve((
                         Array.isArray(values)
+                        ? values[key_nr % values.length]
+                        : value
