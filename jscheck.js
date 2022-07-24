@@ -293,3 +293,6 @@ function object(subject, value) {
                         Array.isArray(values)
                         ? values[key_nr % values.length]
                         : value
+                    ), key_nr);
+                });
+                return result;
