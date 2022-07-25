@@ -298,3 +298,7 @@ function object(subject, value) {
                 return result;
             }
         }
+    };
+}
+
+const ctp = "{name}: {class}{cases} cases tested, {pass} pass{fail}{lost}\n";
