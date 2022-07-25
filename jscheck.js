@@ -296,3 +296,5 @@ function object(subject, value) {
                     ), key_nr);
                 });
                 return result;
+            }
+        }
