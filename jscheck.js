@@ -302,3 +302,5 @@ function object(subject, value) {
 }
 
 const ctp = "{name}: {class}{cases} cases tested, {pass} pass{fail}{lost}\n";
+
+function crunch(detail, cases, serials) {
