@@ -304,3 +304,6 @@ function object(subject, value) {
 const ctp = "{name}: {class}{cases} cases tested, {pass} pass{fail}{lost}\n";
 
 function crunch(detail, cases, serials) {
+
+// Go thru all of the cases. Gather the lost cases.
+// Produce a detailed report and a summary.
