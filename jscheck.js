@@ -307,3 +307,5 @@ function crunch(detail, cases, serials) {
 
 // Go thru all of the cases. Gather the lost cases.
 // Produce a detailed report and a summary.
+
+    let class_fail;
