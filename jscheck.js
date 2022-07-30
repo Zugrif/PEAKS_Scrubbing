@@ -309,3 +309,5 @@ function crunch(detail, cases, serials) {
 // Produce a detailed report and a summary.
 
     let class_fail;
+    let class_pass;
+    let class_lost;
