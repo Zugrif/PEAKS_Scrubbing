@@ -312,3 +312,4 @@ function crunch(detail, cases, serials) {
     let class_pass;
     let class_lost;
     let case_nr = 0;
+    let lines = "";
