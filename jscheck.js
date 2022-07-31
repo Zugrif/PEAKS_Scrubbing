@@ -313,3 +313,5 @@ function crunch(detail, cases, serials) {
     let class_lost;
     let case_nr = 0;
     let lines = "";
+    let losses = [];
+    let next_case;
