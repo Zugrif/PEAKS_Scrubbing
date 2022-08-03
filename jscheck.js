@@ -322,3 +322,5 @@ function crunch(detail, cases, serials) {
     let nr_pass;
     let report = "";
     let the_case;
+    let the_class;
+    let total_fail = 0;
