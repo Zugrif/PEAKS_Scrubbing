@@ -326,3 +326,5 @@ function crunch(detail, cases, serials) {
     let total_fail = 0;
     let total_lost = 0;
     let total_pass = 0;
+
+    function generate_line(type, level) {
