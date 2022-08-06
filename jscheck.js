@@ -328,3 +328,7 @@ function crunch(detail, cases, serials) {
     let total_pass = 0;
 
     function generate_line(type, level) {
+        if (detail >= level) {
+            lines += fulfill(
+                " {type} [{serial}] {classification}{args}\n",
+                {
