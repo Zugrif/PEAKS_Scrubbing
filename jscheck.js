@@ -333,3 +333,4 @@ function crunch(detail, cases, serials) {
                 " {type} [{serial}] {classification}{args}\n",
                 {
                     type,
+                    serial: the_case.serial,
