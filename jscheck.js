@@ -332,3 +332,4 @@ function crunch(detail, cases, serials) {
             lines += fulfill(
                 " {type} [{serial}] {classification}{args}\n",
                 {
+                    type,
