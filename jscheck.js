@@ -334,3 +334,5 @@ function crunch(detail, cases, serials) {
                 {
                     type,
                     serial: the_case.serial,
+                    classification: the_case.classification,
+                    args: JSON.stringify(
