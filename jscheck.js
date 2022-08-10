@@ -336,3 +336,6 @@ function crunch(detail, cases, serials) {
                     serial: the_case.serial,
                     classification: the_case.classification,
                     args: JSON.stringify(
+                        the_case.args,
+                        function replacer(ignore, value) {
+                            return (
