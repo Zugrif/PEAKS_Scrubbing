@@ -340,3 +340,5 @@ function crunch(detail, cases, serials) {
                         function replacer(ignore, value) {
                             return (
                                 (
+                                    value === undefined || (
+                                        typeof value === "number" &&
