@@ -342,3 +342,4 @@ function crunch(detail, cases, serials) {
                                 (
                                     value === undefined || (
                                         typeof value === "number" &&
+                                        !Number.isFinite(value)
