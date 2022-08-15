@@ -345,3 +345,6 @@ function crunch(detail, cases, serials) {
                                         !Number.isFinite(value)
                                     )
                                 )
+                                ? String(value)
+                                : (
+                                    typeof value === "function"
