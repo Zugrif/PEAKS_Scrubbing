@@ -350,3 +350,6 @@ function crunch(detail, cases, serials) {
                                     typeof value === "function"
                                     ? "function " + value.name + " #" + value.length
                                     : value
+                                )
+                            );
+                        }
