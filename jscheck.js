@@ -348,3 +348,5 @@ function crunch(detail, cases, serials) {
                                 ? String(value)
                                 : (
                                     typeof value === "function"
+                                    ? "function " + value.name + " #" + value.length
+                                    : value
