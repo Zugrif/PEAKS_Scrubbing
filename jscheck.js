@@ -354,3 +354,5 @@ function crunch(detail, cases, serials) {
                             );
                         }
                     ).replace(
+                        /^\[/,
+                        "("
