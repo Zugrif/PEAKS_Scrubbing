@@ -360,3 +360,7 @@ function crunch(detail, cases, serials) {
                         /\]$/,
                         ")"
                     )
+                }
+            );
+        }
+    }
