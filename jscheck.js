@@ -364,3 +364,6 @@ function crunch(detail, cases, serials) {
             );
         }
     }
+
+    function generate_class(key) {
+        if (detail >= 3 || class_fail[key] || class_lost[key]) {
