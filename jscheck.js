@@ -369,3 +369,5 @@ function crunch(detail, cases, serials) {
         if (detail >= 3 || class_fail[key] || class_lost[key]) {
             report += fulfill(
                 " {key} pass {pass}{fail}{lost}\n",
+                {
+                    key,
