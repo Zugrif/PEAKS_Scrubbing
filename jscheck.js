@@ -371,3 +371,4 @@ function crunch(detail, cases, serials) {
                 " {key} pass {pass}{fail}{lost}\n",
                 {
                     key,
+                    pass: class_pass[key],
