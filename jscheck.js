@@ -375,3 +375,5 @@ function crunch(detail, cases, serials) {
                     fail: (
                         class_fail[key]
                         ? " fail " + class_fail[key]
+                        : ""
+                    ),
