@@ -380,3 +380,5 @@ function crunch(detail, cases, serials) {
                     lost: (
                         class_lost[key]
                         ? " lost " + class_lost[key]
+                        : ""
+                    )
