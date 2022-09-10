@@ -386,3 +386,6 @@ function crunch(detail, cases, serials) {
             );
         }
     }
+
+    if (cases) {
+        while (true) {
