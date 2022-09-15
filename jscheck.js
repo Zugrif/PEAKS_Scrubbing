@@ -389,3 +389,8 @@ function crunch(detail, cases, serials) {
 
     if (cases) {
         while (true) {
+            next_case = cases[serials[case_nr]];
+            case_nr += 1;
+            if (!next_case || (next_case.claim !== now_claim)) {
+                if (now_claim) {
+                    if (detail >= 1) {
