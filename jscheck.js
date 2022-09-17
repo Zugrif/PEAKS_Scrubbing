@@ -396,3 +396,5 @@ function crunch(detail, cases, serials) {
                     if (detail >= 1) {
                         report += fulfill(
                             ctp,
+                            {
+                                name: the_case.name,
