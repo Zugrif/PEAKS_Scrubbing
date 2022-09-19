@@ -398,3 +398,4 @@ function crunch(detail, cases, serials) {
                             ctp,
                             {
                                 name: the_case.name,
+                                class: (
