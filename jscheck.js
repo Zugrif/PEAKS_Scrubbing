@@ -399,3 +399,5 @@ function crunch(detail, cases, serials) {
                             {
                                 name: the_case.name,
                                 class: (
+                                    nr_class
+                                    ? nr_class + " classifications, "
