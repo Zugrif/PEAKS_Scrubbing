@@ -401,3 +401,6 @@ function crunch(detail, cases, serials) {
                                 class: (
                                     nr_class
                                     ? nr_class + " classifications, "
+                                    : ""
+                                ),
+                                cases: nr_pass + nr_fail + nr_lost,
