@@ -405,3 +405,5 @@ function crunch(detail, cases, serials) {
                                 ),
                                 cases: nr_pass + nr_fail + nr_lost,
                                 pass: nr_pass,
+                                fail: (
+                                    nr_fail
