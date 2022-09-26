@@ -410,3 +410,4 @@ function crunch(detail, cases, serials) {
                                     ? ", " + nr_fail + " fail"
                                     : ""
                                 ),
+                                lost: (
