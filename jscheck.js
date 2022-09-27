@@ -411,3 +411,4 @@ function crunch(detail, cases, serials) {
                                     : ""
                                 ),
                                 lost: (
+                                    nr_lost
