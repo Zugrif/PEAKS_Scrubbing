@@ -412,3 +412,9 @@ function crunch(detail, cases, serials) {
                                 ),
                                 lost: (
                                     nr_lost
+                                    ? ", " + nr_lost + " lost"
+                                    : ""
+                                )
+                            }
+                        );
+                        if (detail >= 2) {
