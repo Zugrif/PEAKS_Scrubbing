@@ -420,3 +420,4 @@ function crunch(detail, cases, serials) {
                         if (detail >= 2) {
                             Object.keys(
                                 class_pass
+                            ).sort().forEach(
