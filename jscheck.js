@@ -424,3 +424,4 @@ function crunch(detail, cases, serials) {
                                 generate_class
                             );
                             report += lines;
+                        }
