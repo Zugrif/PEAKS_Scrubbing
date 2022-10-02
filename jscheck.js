@@ -421,3 +421,6 @@ function crunch(detail, cases, serials) {
                             Object.keys(
                                 class_pass
                             ).sort().forEach(
+                                generate_class
+                            );
+                            report += lines;
