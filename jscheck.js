@@ -425,3 +425,5 @@ function crunch(detail, cases, serials) {
                             );
                             report += lines;
                         }
+                    }
+                    total_fail += nr_fail;
