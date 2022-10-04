@@ -428,3 +428,5 @@ function crunch(detail, cases, serials) {
                     }
                     total_fail += nr_fail;
                     total_lost += nr_lost;
+                    total_pass += nr_pass;
+                }
