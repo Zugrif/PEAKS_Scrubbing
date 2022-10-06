@@ -434,3 +434,6 @@ function crunch(detail, cases, serials) {
                     break;
                 }
                 nr_class = 0;
+                nr_fail = 0;
+                nr_lost = 0;
+                nr_pass = 0;
