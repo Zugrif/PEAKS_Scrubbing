@@ -430,3 +430,7 @@ function crunch(detail, cases, serials) {
                     total_lost += nr_lost;
                     total_pass += nr_pass;
                 }
+                if (!next_case) {
+                    break;
+                }
+                nr_class = 0;
