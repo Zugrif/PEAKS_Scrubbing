@@ -441,3 +441,4 @@ function crunch(detail, cases, serials) {
                 class_fail = {};
                 class_lost = {};
                 lines = "";
+            }
