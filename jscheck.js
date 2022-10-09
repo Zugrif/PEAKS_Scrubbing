@@ -445,3 +445,4 @@ function crunch(detail, cases, serials) {
             the_case = next_case;
             now_claim = the_case.claim;
             the_class = the_case.classification;
+            if (the_class && typeof class_pass[the_class] !== "number") {
