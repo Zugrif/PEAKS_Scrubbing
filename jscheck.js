@@ -442,3 +442,6 @@ function crunch(detail, cases, serials) {
                 class_lost = {};
                 lines = "";
             }
+            the_case = next_case;
+            now_claim = the_case.claim;
+            the_class = the_case.classification;
