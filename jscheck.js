@@ -448,3 +448,5 @@ function crunch(detail, cases, serials) {
             if (the_class && typeof class_pass[the_class] !== "number") {
                 class_pass[the_class] = 0;
                 class_fail[the_class] = 0;
+                class_lost[the_class] = 0;
+                nr_class += 1;
