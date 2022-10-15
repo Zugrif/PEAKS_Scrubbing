@@ -455,3 +455,5 @@ function crunch(detail, cases, serials) {
                 if (the_class) {
                     class_pass[the_class] += 1;
                 }
+                if (detail >= 4) {
+                    generate_line("Pass", 4);
