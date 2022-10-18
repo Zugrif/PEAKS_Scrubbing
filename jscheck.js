@@ -457,3 +457,5 @@ function crunch(detail, cases, serials) {
                 }
                 if (detail >= 4) {
                     generate_line("Pass", 4);
+                }
+                nr_pass += 1;
