@@ -459,3 +459,5 @@ function crunch(detail, cases, serials) {
                     generate_line("Pass", 4);
                 }
                 nr_pass += 1;
+            } else if (the_case.pass === false) {
+                if (the_class) {
