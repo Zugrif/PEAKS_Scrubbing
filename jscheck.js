@@ -461,3 +461,5 @@ function crunch(detail, cases, serials) {
                 nr_pass += 1;
             } else if (the_case.pass === false) {
                 if (the_class) {
+                    class_fail[the_class] += 1;
+                }
