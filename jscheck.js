@@ -467,3 +467,5 @@ function crunch(detail, cases, serials) {
                 nr_fail += 1;
             } else {
                 if (the_class) {
+                    class_lost[the_class] += 1;
+                }
