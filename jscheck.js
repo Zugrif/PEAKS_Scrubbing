@@ -463,3 +463,7 @@ function crunch(detail, cases, serials) {
                 if (the_class) {
                     class_fail[the_class] += 1;
                 }
+                generate_line("FAIL", 2);
+                nr_fail += 1;
+            } else {
+                if (the_class) {
