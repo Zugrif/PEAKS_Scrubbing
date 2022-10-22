@@ -472,3 +472,6 @@ function crunch(detail, cases, serials) {
                 generate_line("LOST", 2);
                 losses[nr_lost] = the_case;
                 nr_lost += 1;
+            }
+        }
+        report += fulfill(
