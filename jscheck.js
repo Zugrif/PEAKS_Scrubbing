@@ -469,3 +469,6 @@ function crunch(detail, cases, serials) {
                 if (the_class) {
                     class_lost[the_class] += 1;
                 }
+                generate_line("LOST", 2);
+                losses[nr_lost] = the_case;
+                nr_lost += 1;
