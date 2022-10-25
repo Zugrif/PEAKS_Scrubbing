@@ -478,3 +478,5 @@ function crunch(detail, cases, serials) {
             "\nTotal pass {pass}{fail}{lost}\n",
             {
                 pass: total_pass,
+                fail: (
+                    total_fail
