@@ -480,3 +480,6 @@ function crunch(detail, cases, serials) {
                 pass: total_pass,
                 fail: (
                     total_fail
+                    ? ", fail " + total_fail
+                    : ""
+                ),
