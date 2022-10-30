@@ -483,3 +483,4 @@ function crunch(detail, cases, serials) {
                     ? ", fail " + total_fail
                     : ""
                 ),
+                lost: (
