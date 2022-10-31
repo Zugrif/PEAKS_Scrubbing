@@ -486,3 +486,6 @@ function crunch(detail, cases, serials) {
                 lost: (
                     total_lost
                     ? ", lost " + total_lost
+                    : ""
+                )
+            }
