@@ -490,3 +490,5 @@ function crunch(detail, cases, serials) {
                 )
             }
         );
+    }
+    return {losses, report, summary: {
