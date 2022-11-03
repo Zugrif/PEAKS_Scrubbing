@@ -492,3 +492,4 @@ function crunch(detail, cases, serials) {
         );
     }
     return {losses, report, summary: {
+        pass: total_pass,
