@@ -496,3 +496,4 @@ function crunch(detail, cases, serials) {
         fail: total_fail,
         lost: total_lost,
         total: total_pass + total_fail + total_lost,
+        ok: total_lost === 0 && total_fail === 0 && total_pass > 0
