@@ -498,3 +498,6 @@ function crunch(detail, cases, serials) {
         total: total_pass + total_fail + total_lost,
         ok: total_lost === 0 && total_fail === 0 && total_pass > 0
     }};
+}
+
+// The 'reject' value is used to identify trials that should be rejected.
