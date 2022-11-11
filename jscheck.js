@@ -501,3 +501,5 @@ function crunch(detail, cases, serials) {
 }
 
 // The 'reject' value is used to identify trials that should be rejected.
+
+const reject = Object.freeze({});
