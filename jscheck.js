@@ -503,3 +503,6 @@ function crunch(detail, cases, serials) {
 // The 'reject' value is used to identify trials that should be rejected.
 
 const reject = Object.freeze({});
+
+// We export a 'jsc_constructor' function. The 'check' and 'claim' functions are
+// stateful, so they are created in here. I am freezing the constructor because
