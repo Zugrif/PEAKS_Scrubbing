@@ -506,3 +506,7 @@ const reject = Object.freeze({});
 
 // We export a 'jsc_constructor' function. The 'check' and 'claim' functions are
 // stateful, so they are created in here. I am freezing the constructor because
+// I enjoy freezing things.
+
+export default Object.freeze(function jsc_constructor() {
+    let all_claims = [];
