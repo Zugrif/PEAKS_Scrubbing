@@ -510,3 +510,6 @@ const reject = Object.freeze({});
 
 export default Object.freeze(function jsc_constructor() {
     let all_claims = [];
+
+    function check(configuration) {
+        let the_claims = all_claims;
