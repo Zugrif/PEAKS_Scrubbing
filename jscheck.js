@@ -517,3 +517,5 @@ export default Object.freeze(function jsc_constructor() {
         let nr_trials = (
             configuration.nr_trials === undefined
             ? 100
+            : configuration.nr_trials
+        );
