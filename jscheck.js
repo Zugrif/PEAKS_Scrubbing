@@ -514,3 +514,6 @@ export default Object.freeze(function jsc_constructor() {
     function check(configuration) {
         let the_claims = all_claims;
         all_claims = [];
+        let nr_trials = (
+            configuration.nr_trials === undefined
+            ? 100
