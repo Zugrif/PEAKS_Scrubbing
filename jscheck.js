@@ -519,3 +519,5 @@ export default Object.freeze(function jsc_constructor() {
             ? 100
             : configuration.nr_trials
         );
+
+        function go(on, report) {
