@@ -525,3 +525,4 @@ export default Object.freeze(function jsc_constructor() {
 // Invoke a callback function.
 
             try {
+                return configuration[on](report);
