@@ -526,3 +526,5 @@ export default Object.freeze(function jsc_constructor() {
 
             try {
                 return configuration[on](report);
+            } catch (ignore) {}
+        }
