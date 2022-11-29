@@ -531,3 +531,8 @@ export default Object.freeze(function jsc_constructor() {
 
 // The check function checks all claims.
 // The results are provided to callback functions.
+
+        let cases = {};
+        let all_started = false;
+        let nr_pending = 0;
+        let serials = [];
