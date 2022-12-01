@@ -537,3 +537,5 @@ export default Object.freeze(function jsc_constructor() {
         let nr_pending = 0;
         let serials = [];
         let timeout_id;
+
+        function finish() {
