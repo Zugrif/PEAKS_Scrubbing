@@ -539,3 +539,4 @@ export default Object.freeze(function jsc_constructor() {
         let timeout_id;
 
         function finish() {
+            if (timeout_id) {
