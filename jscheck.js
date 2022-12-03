@@ -544,3 +544,5 @@ export default Object.freeze(function jsc_constructor() {
             }
             const {
                 losses,
+                summary,
+                report
