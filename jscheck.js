@@ -546,3 +546,5 @@ export default Object.freeze(function jsc_constructor() {
                 losses,
                 summary,
                 report
+            } = crunch(
+                (
