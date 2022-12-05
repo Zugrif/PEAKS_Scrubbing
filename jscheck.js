@@ -548,3 +548,5 @@ export default Object.freeze(function jsc_constructor() {
                 report
             } = crunch(
                 (
+                    configuration.detail === undefined
+                    ? 3
