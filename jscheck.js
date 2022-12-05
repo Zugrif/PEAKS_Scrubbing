@@ -550,3 +550,5 @@ export default Object.freeze(function jsc_constructor() {
                 (
                     configuration.detail === undefined
                     ? 3
+                    : configuration.detail
+                ),
