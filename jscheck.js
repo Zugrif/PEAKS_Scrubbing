@@ -552,3 +552,7 @@ export default Object.freeze(function jsc_constructor() {
                     ? 3
                     : configuration.detail
                 ),
+                cases,
+                serials
+            );
+            losses.forEach(function (the_case) {
