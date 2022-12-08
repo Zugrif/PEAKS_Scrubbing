@@ -556,3 +556,6 @@ export default Object.freeze(function jsc_constructor() {
                 serials
             );
             losses.forEach(function (the_case) {
+                go("on_lost", the_case);
+            });
+            go("on_result", summary);
