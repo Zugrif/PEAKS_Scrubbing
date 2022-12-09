@@ -561,3 +561,4 @@ export default Object.freeze(function jsc_constructor() {
             go("on_result", summary);
             go("on_report", report);
             cases = undefined;
+        }
