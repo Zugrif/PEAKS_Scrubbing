@@ -562,3 +562,5 @@ export default Object.freeze(function jsc_constructor() {
             go("on_report", report);
             cases = undefined;
         }
+
+        function register(serial, value) {
