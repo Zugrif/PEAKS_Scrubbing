@@ -564,3 +564,5 @@ export default Object.freeze(function jsc_constructor() {
         }
 
         function register(serial, value) {
+
+// This function is used by a claim function to register a new case,
