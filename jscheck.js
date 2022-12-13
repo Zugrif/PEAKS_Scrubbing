@@ -568,3 +568,5 @@ export default Object.freeze(function jsc_constructor() {
 // This function is used by a claim function to register a new case,
 // and it is used by a case to report a verdict. The two uses are
 // correlated by the serial number.
+
+// If the cases object is gone, then all late arriving lost results
