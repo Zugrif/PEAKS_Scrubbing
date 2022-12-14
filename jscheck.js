@@ -570,3 +570,4 @@ export default Object.freeze(function jsc_constructor() {
 // correlated by the serial number.
 
 // If the cases object is gone, then all late arriving lost results
+// should be ignored.
