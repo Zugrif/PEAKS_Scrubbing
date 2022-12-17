@@ -571,3 +571,6 @@ export default Object.freeze(function jsc_constructor() {
 
 // If the cases object is gone, then all late arriving lost results
 // should be ignored.
+
+            if (cases) {
+                let the_case = cases[serial];
