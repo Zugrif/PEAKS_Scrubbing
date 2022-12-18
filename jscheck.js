@@ -574,3 +574,7 @@ export default Object.freeze(function jsc_constructor() {
 
             if (cases) {
                 let the_case = cases[serial];
+
+// If the serial number has not been seen, then register a new case.
+// The case is added to the cases collection. The serial number is added
+// to the serials collection. The number of pending cases is increased.
