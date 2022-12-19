@@ -580,3 +580,4 @@ export default Object.freeze(function jsc_constructor() {
 // to the serials collection. The number of pending cases is increased.
 
                 if (the_case === undefined) {
+                    value.serial = serial;
