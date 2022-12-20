@@ -581,3 +581,6 @@ export default Object.freeze(function jsc_constructor() {
 
                 if (the_case === undefined) {
                     value.serial = serial;
+                    cases[serial] = value;
+                    serials.push(serial);
+                    nr_pending += 1;
