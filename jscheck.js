@@ -584,3 +584,4 @@ export default Object.freeze(function jsc_constructor() {
                     cases[serial] = value;
                     serials.push(serial);
                     nr_pending += 1;
+                } else {
