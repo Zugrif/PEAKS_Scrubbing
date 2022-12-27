@@ -585,3 +585,6 @@ export default Object.freeze(function jsc_constructor() {
                     serials.push(serial);
                     nr_pending += 1;
                 } else {
+
+// An existing case now gets its verdict. If it unexpectedly already has a
+// result, then throw an exception. Each case should have only wun result.
