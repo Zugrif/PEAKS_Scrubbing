@@ -590,3 +590,5 @@ export default Object.freeze(function jsc_constructor() {
 // result, then throw an exception. Each case should have only wun result.
 
                     if (
+                        the_case.pass !== undefined
+                        || typeof value !== "boolean"
