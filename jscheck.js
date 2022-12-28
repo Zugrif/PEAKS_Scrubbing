@@ -588,3 +588,5 @@ export default Object.freeze(function jsc_constructor() {
 
 // An existing case now gets its verdict. If it unexpectedly already has a
 // result, then throw an exception. Each case should have only wun result.
+
+                    if (
