@@ -593,3 +593,4 @@ export default Object.freeze(function jsc_constructor() {
                         the_case.pass !== undefined
                         || typeof value !== "boolean"
                     ) {
+                        throw the_case;
