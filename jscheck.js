@@ -594,3 +594,6 @@ export default Object.freeze(function jsc_constructor() {
                         || typeof value !== "boolean"
                     ) {
                         throw the_case;
+                    }
+
+// If the result is a boolean, then the case is updated and sent to
