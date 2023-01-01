@@ -600,3 +600,4 @@ export default Object.freeze(function jsc_constructor() {
 // on_pass or on_fail.
 
                     if (value === true) {
+                        the_case.pass = true;
