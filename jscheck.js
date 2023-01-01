@@ -597,3 +597,6 @@ export default Object.freeze(function jsc_constructor() {
                     }
 
 // If the result is a boolean, then the case is updated and sent to
+// on_pass or on_fail.
+
+                    if (value === true) {
