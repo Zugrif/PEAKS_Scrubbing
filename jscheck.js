@@ -606,3 +606,6 @@ export default Object.freeze(function jsc_constructor() {
                         the_case.pass = false;
                         go("on_fail", the_case);
                     }
+
+// This case is no longer pending.
+// If all of the cases have been generated and given results, then finish.
