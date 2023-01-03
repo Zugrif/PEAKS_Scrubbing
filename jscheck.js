@@ -609,3 +609,6 @@ export default Object.freeze(function jsc_constructor() {
 
 // This case is no longer pending.
 // If all of the cases have been generated and given results, then finish.
+
+                    nr_pending -= 1;
+                    if (nr_pending <= 0 && all_started) {
