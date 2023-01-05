@@ -614,3 +614,4 @@ export default Object.freeze(function jsc_constructor() {
                     if (nr_pending <= 0 && all_started) {
                         finish();
                     }
+                }
