@@ -616,3 +616,6 @@ export default Object.freeze(function jsc_constructor() {
                     }
                 }
             }
+            return value;
+        }
+        let unique = 0;
