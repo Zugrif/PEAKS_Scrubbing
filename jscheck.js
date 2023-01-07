@@ -623,3 +623,6 @@ export default Object.freeze(function jsc_constructor() {
 // Process each claim.
 
         the_claims.forEach(function (a_claim) {
+            let at_most = nr_trials * 10;
+            let case_nr = 0;
+            let attempt_nr = 0;
