@@ -619,3 +619,7 @@ export default Object.freeze(function jsc_constructor() {
             return value;
         }
         let unique = 0;
+
+// Process each claim.
+
+        the_claims.forEach(function (a_claim) {
