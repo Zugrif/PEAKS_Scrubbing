@@ -628,3 +628,6 @@ export default Object.freeze(function jsc_constructor() {
             let attempt_nr = 0;
 
 // Loop over the generation and testing of cases.
+
+            while (case_nr < nr_trials && attempt_nr < at_most) {
+                if (a_claim(register, unique) !== reject) {
