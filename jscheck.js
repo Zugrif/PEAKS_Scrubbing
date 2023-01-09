@@ -626,3 +626,5 @@ export default Object.freeze(function jsc_constructor() {
             let at_most = nr_trials * 10;
             let case_nr = 0;
             let attempt_nr = 0;
+
+// Loop over the generation and testing of cases.
