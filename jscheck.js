@@ -631,3 +631,4 @@ export default Object.freeze(function jsc_constructor() {
 
             while (case_nr < nr_trials && attempt_nr < at_most) {
                 if (a_claim(register, unique) !== reject) {
+                    case_nr += 1;
