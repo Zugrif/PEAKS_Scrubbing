@@ -633,3 +633,7 @@ export default Object.freeze(function jsc_constructor() {
                 if (a_claim(register, unique) !== reject) {
                     case_nr += 1;
                     unique += 1;
+                }
+                attempt_nr += 1;
+            }
+        });
