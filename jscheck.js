@@ -637,3 +637,5 @@ export default Object.freeze(function jsc_constructor() {
                 attempt_nr += 1;
             }
         });
+
+// All of the case predicates have been called.
