@@ -639,3 +639,5 @@ export default Object.freeze(function jsc_constructor() {
         });
 
 // All of the case predicates have been called.
+
+        all_started = true;
