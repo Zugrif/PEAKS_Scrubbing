@@ -641,3 +641,7 @@ export default Object.freeze(function jsc_constructor() {
 // All of the case predicates have been called.
 
         all_started = true;
+
+// If all of the cases have returned verdicts, then generate the report.
+
+        if (nr_pending <= 0) {
