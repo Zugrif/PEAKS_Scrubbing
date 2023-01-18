@@ -645,3 +645,4 @@ export default Object.freeze(function jsc_constructor() {
 // If all of the cases have returned verdicts, then generate the report.
 
         if (nr_pending <= 0) {
+            finish();
