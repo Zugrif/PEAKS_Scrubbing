@@ -646,3 +646,9 @@ export default Object.freeze(function jsc_constructor() {
 
         if (nr_pending <= 0) {
             finish();
+
+// Otherwise, start the timer.
+
+        } else if (configuration.time_limit !== undefined) {
+            timeout_id = setTimeout(finish, configuration.time_limit);
+        }
