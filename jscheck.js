@@ -652,3 +652,4 @@ export default Object.freeze(function jsc_constructor() {
         } else if (configuration.time_limit !== undefined) {
             timeout_id = setTimeout(finish, configuration.time_limit);
         }
+    }
