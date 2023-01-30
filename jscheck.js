@@ -653,3 +653,5 @@ export default Object.freeze(function jsc_constructor() {
             timeout_id = setTimeout(finish, configuration.time_limit);
         }
     }
+
+    function claim(name, predicate, signature, classifier) {
