@@ -655,3 +655,8 @@ export default Object.freeze(function jsc_constructor() {
     }
 
     function claim(name, predicate, signature, classifier) {
+
+// A function is deposited in the set of all claims.
+
+        if (!Array.isArray(signature)) {
+            signature = [signature];
