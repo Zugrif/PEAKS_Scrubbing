@@ -660,3 +660,6 @@ export default Object.freeze(function jsc_constructor() {
 
         if (!Array.isArray(signature)) {
             signature = [signature];
+        }
+
+        function the_claim(register, serial) {
