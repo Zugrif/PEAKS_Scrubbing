@@ -665,3 +665,5 @@ export default Object.freeze(function jsc_constructor() {
         function the_claim(register, serial) {
             let args = signature.map(resolve);
             let classification = "";
+
+// If a classifier function was provided, then use it to obtain a
