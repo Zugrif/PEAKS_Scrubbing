@@ -663,3 +663,5 @@ export default Object.freeze(function jsc_constructor() {
         }
 
         function the_claim(register, serial) {
+            let args = signature.map(resolve);
+            let classification = "";
