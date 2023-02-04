@@ -668,3 +668,6 @@ export default Object.freeze(function jsc_constructor() {
 
 // If a classifier function was provided, then use it to obtain a
 // classification. If the classification is not a string, then reject the case.
+
+            if (classifier !== undefined) {
+                classification = classifier(...args);
