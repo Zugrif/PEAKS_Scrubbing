@@ -671,3 +671,4 @@ export default Object.freeze(function jsc_constructor() {
 
             if (classifier !== undefined) {
                 classification = classifier(...args);
+                if (typeof classification !== "string") {
