@@ -675,3 +675,5 @@ export default Object.freeze(function jsc_constructor() {
                     return reject;
                 }
             }
+
+// Create a verdict function that wraps the register function.
