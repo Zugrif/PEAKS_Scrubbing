@@ -680,3 +680,4 @@ export default Object.freeze(function jsc_constructor() {
 
             let verdict = function (result) {
                 return register(serial, result);
+            };
