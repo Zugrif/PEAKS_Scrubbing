@@ -679,3 +679,4 @@ export default Object.freeze(function jsc_constructor() {
 // Create a verdict function that wraps the register function.
 
             let verdict = function (result) {
+                return register(serial, result);
