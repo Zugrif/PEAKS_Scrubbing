@@ -683,3 +683,7 @@ export default Object.freeze(function jsc_constructor() {
             };
 
 // Register an object that represents this trial.
+
+            register(serial, {
+                args,
+                claim: the_claim,
