@@ -687,3 +687,5 @@ export default Object.freeze(function jsc_constructor() {
             register(serial, {
                 args,
                 claim: the_claim,
+                classification,
+                classifier,
