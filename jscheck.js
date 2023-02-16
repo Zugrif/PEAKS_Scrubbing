@@ -689,3 +689,6 @@ export default Object.freeze(function jsc_constructor() {
                 claim: the_claim,
                 classification,
                 classifier,
+                name,
+                predicate,
+                serial,
