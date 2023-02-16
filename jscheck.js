@@ -692,3 +692,6 @@ export default Object.freeze(function jsc_constructor() {
                 name,
                 predicate,
                 serial,
+                signature,
+                verdict
+            });
