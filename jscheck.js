@@ -699,3 +699,6 @@ export default Object.freeze(function jsc_constructor() {
 // Call the predicate, giving it the verdict function and all of the case
 // arguments. The predicate must use the verdict callback to signal the result
 // of the case.
+
+            return predicate(verdict, ...args);
+        }
