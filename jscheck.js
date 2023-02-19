@@ -702,3 +702,5 @@ export default Object.freeze(function jsc_constructor() {
 
             return predicate(verdict, ...args);
         }
+        all_claims.push(the_claim);
+    }
