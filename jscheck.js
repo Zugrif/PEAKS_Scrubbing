@@ -706,3 +706,5 @@ export default Object.freeze(function jsc_constructor() {
     }
 
     return Object.freeze({
+
+// The Specifiers:
