@@ -704,3 +704,5 @@ export default Object.freeze(function jsc_constructor() {
         }
         all_claims.push(the_claim);
     }
+
+    return Object.freeze({
