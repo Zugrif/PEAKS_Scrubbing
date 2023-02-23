@@ -711,3 +711,4 @@ export default Object.freeze(function jsc_constructor() {
 
         any,
         array,
+        boolean,
