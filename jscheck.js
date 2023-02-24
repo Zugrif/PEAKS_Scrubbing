@@ -715,3 +715,5 @@ export default Object.freeze(function jsc_constructor() {
         character,
         falsy,
         integer,
+        literal,
+        number,
