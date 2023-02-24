@@ -717,3 +717,5 @@ export default Object.freeze(function jsc_constructor() {
         integer,
         literal,
         number,
+        object,
+        wun_of,
