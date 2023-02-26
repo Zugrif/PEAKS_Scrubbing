@@ -720,3 +720,4 @@ export default Object.freeze(function jsc_constructor() {
         object,
         wun_of,
         sequence,
+        string,
