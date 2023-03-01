@@ -723,3 +723,8 @@ export default Object.freeze(function jsc_constructor() {
         string,
 
 // The Main Functions:
+
+        check,
+        claim
+    });
+});
